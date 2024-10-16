@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> منصة أصدقاء مكتبة المعهد العالي للهندسة والتكنولوجيا</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بكم في منصة أصدقاء المكتبة</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#activities">الأنشطة</a></li>
+            <li><a href="#services">الخدمات</a></li>
+            <li><a href="#events">الفعاليات</a></li>
+            <li><a href="#contact">اتصل بنا</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="activities">
+            <h2>الأنشطة</h2>
+            <ul id="activities-list"></ul>
+            <button onclick="addActivity()">إضافة نشاط</button>
+        </section>
+        <section id="services">
+            <h2>الخدمات</h2>
+            <ul>
+                <li>استعارة الكتب</li>
+                <li>خدمات البحث</li>
+                <li>دورات تعليمية</li>
+            </ul>
+        </section>
+        <section id="events">
+            <h2>الفعاليات</h2>
+            <ul id="events-list"></ul>
+            <button onclick="addEvent()">إضافة فعالية</button>
+        </section>
+        <section id="contact">
+            <h2>اتصل بنا</h2>
+            <p>للتواصل عبر WhatsApp: 
+                <a id="whatsapp-link" href="#" target="_blank">اضغط هنا</a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 أصدقاء المكتبة. جميع الحقوق محفوظة.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
